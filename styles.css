@@ -1,0 +1,129 @@
+.img-avatar{
+  height:70px;
+  width:70px;
+  border-radius: 100%;
+  padding-left:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px;
+}
+.name-box{
+  padding-top: 10px;
+}
+.main{
+  display:grid;
+  gap:0;
+  grid-template-columns: 1fr 2fr;
+  width:60%;
+/* height:400px; */
+margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:200px;
+  background-color: white;
+border-radius: 10px;
+
+}
+.main-img{
+  height:100%;
+  width:100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.inner-text-container{
+  padding:40px;
+}
+body{
+  background-color: hsl(212, 23%, 69%);
+
+}
+.inner-text-container p{
+  margin-top:30px;
+}
+/* @media only screen and (max-width:808px){
+  .main{
+    height:600px;
+  }
+} */
+@media only screen and (max-width:700px){
+  .main{
+    width:60%;
+    display:block;
+    margin-top:100px;
+    /* height:600px; */
+  }
+  .main-img{
+    height:300px;
+  }
+  .inner-text-container{
+    padding:10px;
+  }
+
+
+}
+.name{
+  margin:0;
+  padding:0;
+}
+.share{
+  margin-top:10px;
+}
+.sharebox{
+  background-color: hsl(217, 19%, 35%);
+width:220px !important;
+height:40px !important;
+color:white;
+text-align: center;
+position:relative;
+
+right:70px;
+bottom:50px;
+border-radius: 10px;
+display:none;
+}
+.sharebox:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-top: solid 10px  hsl(217, 19%, 35%);
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+.sharebox-sub{
+  padding-top: 8px;
+}
+.logo{
+  padding-right:5px;
+  margin-right: 5px;
+}
+.text-share{
+  padding-right:5px;
+  margin-right: 5px;
+  letter-spacing: 4px;
+}
+.share-img-container{
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  background-color: yellow;
+  border-radius: 100%;
+  width:50%;
+  position: relative;
+  bottom:10px;
+}
+#shareimg{
+  height:30px;
+  width:30px;
+  margin-left: 14px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.visible{
+  display:block;
+}
